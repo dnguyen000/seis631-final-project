@@ -86,7 +86,7 @@ From the above histogram, the plotted statistical value is on the far right and 
 ### Bootstrap Uncertainty Intervals
 
 #### Bootstrap 1:
-This bootstrap test will measure metric variability and create a confidence interval for the proportion of shows per region: west, east, midwest, and south
+This bootstrap test will measure variability of the proportion of shows per region: west, east, midwest, and south
 
 ##### Test Setup:
 - num_sim = 10_000
@@ -140,18 +140,4 @@ This bootstrap test will measure the most commonly played song as a show opener.
 
 ##### Interpreting the information
 
-From the results of the bootstrap, the most common opening song is "Lonesome Fiddle Blues", appearing 36.27% of the time in 10,000 simulations. It should be noted that because this sampling was done with replacement, the results of this test could vary which lessens the confidence of this answer. 
-
-
-#### Interpreting Overall Results
-
-##### Hypothesis 1
-
-##### Hypothesis 2
-
-##### Bootstrap 1
-
-##### Bootstrap 2
-
-From this analysis, the two tests/simulations I feel most confident with the results are with are the Hypothesis 2 and Bootstrap 1 test. For hypothesis 2, the results give evidence that having the additional member in the band extends the average song time, which would make sense because the additional person allows either for more room for improvisation and/or more time used for an additional solo.
-Bootstrap 1 results also appear more straight forward because of the location of the band (Colorado) and geographically would make sense the most shows they play are in the west. What is surprising from these results is how close the east coast and international proportions are to each other.
+From the results of the bootstrap, the most common opening song is "Lonesome Fiddle Blues", appearing 36.27% of the time in 10,000 simulations. It should be noted that because this sampling was done with replacement, the results of this test could vary which lessens the confidence of this answer.
